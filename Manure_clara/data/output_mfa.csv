@@ -1,0 +1,11 @@
+flow_name,substance,flow_id,value
+sysenv => dewatering,dry matter,sysenv => dewatering_dry matter,100.0
+sysenv => dewatering,water,sysenv => dewatering_water,900.0
+dewatering => storage,dry matter,dewatering => storage_dry matter,40.0
+dewatering => storage,water,dewatering => storage_water,720.0
+dewatering => soil application,dry matter,dewatering => soil application_dry matter,60.0
+dewatering => soil application,water,dewatering => soil application_water,180.0
+storage => sysenv,dry matter,storage => sysenv_dry matter,40.0
+storage => sysenv,water,storage => sysenv_water,720.0
+soil application => sysenv,dry matter,soil application => sysenv_dry matter,60.0
+soil application => sysenv,water,soil application => sysenv_water,180.0
